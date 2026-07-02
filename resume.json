@@ -17,9 +17,9 @@
     "email": "zeroicey.hp@outlook.com",
     "mobile": "19138367249",
     "github": "https://github.com/zeroicey",
-    "workExpYear": "1 年+ 商业项目与生产部署经验",
+    "workExpYear": "1 年+ 商业项目",
     "workPlace": "广州 / 深圳 / 佛山",
-    "positionTitle": "全栈工程师 / AI 应用工程师"
+    "positionTitle": "全栈工程师"
   },
   "educationList": [
     {
@@ -64,10 +64,10 @@
   "projectList": [
     {
       "project_name": "SkyBrain 基于 AI 的多模态无人机系统",
-      "project_role": "项目负责人 / 独立开发",
+      "project_role": "项目负责人 / 全栈开发",
       "project_time": "2026.03 - 2026.05",
       "project_desc": "已部署上线的 AI 多模态无人机管理系统，面向校园安保、设施巡检、活动保障、实时监控、自然语言任务创建和多机调度场景。",
-      "project_content": "独立负责从需求拆解、产品结构、前端工程到部署上线的完整开发；基于 React / TypeScript / Vite 构建控制台，结合 Three.js、实时视频、图表看板和模块化路由实现驾驶舱、设备、航线、任务、监控、告警、权限等业务闭环，并接入 AI 对话、语音指令和任务解析能力。"
+      "project_content": "独立负责系统架构与全栈实现，后端围绕 AI Agent 网关、任务调度、设备管理、航线规划、告警记录、权限日志等领域模块设计接口与数据流；集成 AI 对话、语音指令、任务解析和视觉识别结果，打通从自然语言下发任务到无人机执行、监控回传、异常告警的业务闭环。"
     },
     {
       "project_name": "MetaCraft AI 应用生成平台",
