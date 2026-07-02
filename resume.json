@@ -64,10 +64,10 @@
   "projectList": [
     {
       "project_name": "SkyBrain 基于 AI 的多模态无人机系统",
-      "project_role": "系统设计 / 前端开发",
+      "project_role": "项目负责人 / 独立开发",
       "project_time": "2026.03 - 2026.05",
-      "project_desc": "面向校园安保、设施巡检和活动保障的智能无人机平台，融合视觉识别、语音指令、自然语言任务创建、实时监控和多机调度。",
-      "project_content": "设计 Web 控制台与 AI 交互链路，覆盖驾驶舱、设备管理、航线规划、任务调度、实时视频、告警记录和权限配置；基于 React / TypeScript / Three.js 构建 3D 展示与多模块业务界面，沉淀多模态无人机系统的产品原型和架构方案。"
+      "project_desc": "已部署上线的 AI 多模态无人机管理系统，面向校园安保、设施巡检、活动保障、实时监控、自然语言任务创建和多机调度场景。",
+      "project_content": "独立负责从需求拆解、产品结构、前端工程到部署上线的完整开发；基于 React / TypeScript / Vite 构建控制台，结合 Three.js、实时视频、图表看板和模块化路由实现驾驶舱、设备、航线、任务、监控、告警、权限等业务闭环，并接入 AI 对话、语音指令和任务解析能力。"
     },
     {
       "project_name": "MetaCraft AI 应用生成平台",
