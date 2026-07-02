@@ -19,7 +19,7 @@
     "github": "https://github.com/zeroicey",
     "zhihu": "https://zeroicey.me",
     "workExpYear": "1 年+ 项目实战经验",
-    "workPlace": "广州 / 深圳 / 北京 / 远程",
+    "workPlace": "广州 / 深圳 / 佛山",
     "positionTitle": "全栈工程师"
   },
   "educationList": [
@@ -29,7 +29,7 @@
         "2027.06"
       ],
       "school": "广东东软学院",
-      "major": "软件技术",
+      "major": "软件工程",
       "academic_degree": "在读"
     }
   ],
@@ -76,27 +76,34 @@
       "project_time": "2026.04",
       "project_desc": "AI 驱动的应用生成平台，支持自然语言对话、方案生成、代码生成、版本保存和实时进度回传。",
       "project_content": "后端基于 Java 21 / Spring Boot / PostgreSQL / Flyway / LangChain4j，设计统一 AI 入口与 chat、gen、edit 流程编排；通过 SSE 输出 intent、message、plan、app_generated 等事件，持久化会话、消息、应用和版本。"
+    },
+    {
+      "project_name": "AI 找搭子 HarmonyOS 客户端",
+      "project_role": "核心开发",
+      "project_time": "2026.04 - 至今",
+      "project_desc": "面向 HarmonyOS 5 的 AI 社交匹配客户端，包含 AI 对话、匹配推荐、社区动态、IM 私聊、用户资料和认证流程。",
+      "project_content": "负责 5 Tab 主业务壳层、REST 接口封装、腾讯云 TIM 即时通信、离线推送、在线状态、本地登录恢复和消息未读同步，处理复杂移动端状态流转。"
     }
   ],
   "skillList": [
     {
       "skill_name": "前端",
-      "skill_desc": "熟悉 TypeScript / JavaScript、React、Vue、Vite、uni-app、Tailwind CSS、React Query、Zustand，能独立完成中后台、小程序和复杂交互开发。",
+      "skill_desc": "前端：熟悉 Web 与小程序开发，能独立完成中后台系统、移动端页面、复杂表单表格、状态管理、接口联调和响应式适配。",
       "skill_level": 90
     },
     {
       "skill_name": "后端",
-      "skill_desc": "具备 Go / Gin / PostgreSQL 与 Java / Spring Boot / JPA / Flyway 经验，能设计 REST API、鉴权会话、数据库迁移和业务模块分层。",
+      "skill_desc": "后端：具备接口设计、鉴权会话、数据库建模、迁移脚本、业务模块分层和服务端排障经验，能完成前后端闭环开发。",
       "skill_level": 84
     },
     {
-      "skill_name": "移动端",
-      "skill_desc": "熟悉 ArkTS / ArkUI / HMRouter、AppStorage、Preferences 和 HarmonyOS 真机调试，有 TIM 即时通信、推送、图片上传和登录恢复经验。",
+      "skill_name": "运维部署",
+      "skill_desc": "运维：熟悉 Linux 服务部署、反向代理、隧道转发、进程守护、云平台静态站点部署和生产环境问题定位。",
       "skill_level": 85
     },
     {
-      "skill_name": "AI 与部署",
-      "skill_desc": "具备 AI 应用编排、Prompt、LangChain4j、SSE 流式响应经验；熟悉 Cloudflare Pages / Functions、Caddy、frp、systemd 和 Linux 部署。",
+      "skill_name": "AI 应用",
+      "skill_desc": "AI：具备 AI 应用编排、Prompt 设计、流式响应、会话持久化和代码生成类产品开发经验，能把模型能力落到实际业务流程。",
       "skill_level": 86
     }
   ],
