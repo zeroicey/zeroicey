@@ -17,9 +17,9 @@
     "email": "zeroicey.hp@outlook.com",
     "mobile": "19138367249",
     "github": "https://github.com/zeroicey",
-    "workExpYear": "1 年+ 项目实战经验",
+    "workExpYear": "1 年+ 商业项目与生产部署经验",
     "workPlace": "广州 / 深圳 / 佛山",
-    "positionTitle": "全栈工程师"
+    "positionTitle": "全栈工程师 / AI 应用工程师"
   },
   "educationList": [
     {
@@ -35,30 +35,30 @@
   "workExpList": [
     {
       "company_name": "北京找搭子科技有限公司",
-      "department_name": "HarmonyOS 客户端开发",
+      "department_name": "客户端核心开发",
       "work_time": [
         "2026.04",
         "至今"
       ],
-      "work_desc": "核心负责 AI 找搭子 HarmonyOS 客户端，推进需求拆解、页面交付和服务联调。\n封装 REST API、TIM、推送与本地持久化，保障 AI 对话、私聊、社区和认证稳定迭代。"
+      "work_desc": "担任 HarmonyOS 客户端核心开发，负责 AI 社交匹配产品的客户端工程化落地。\n围绕 AI 会话、IM、社区、认证等高频链路设计状态与通信层，支撑多服务协同下的稳定迭代。"
     },
     {
       "company_name": "广州市顺元医疗器械有限公司",
-      "department_name": "前端开发",
+      "department_name": "后台前端主要开发",
       "work_time": [
         "2025.08",
         "2026.05"
       ],
-      "work_desc": "作为后台前端主要开发，推动医疗设备洗消流程从线下记录转为可追踪系统。\n负责权限、检索、表单、Excel 流转和稳定性修复，提升录入、查询与统计效率。"
+      "work_desc": "作为后台前端主要开发，负责医疗洗消业务核心系统的前端架构与交付。\n将科室、设备、维护、故障、洗消记录等线下流程产品化，完善权限、数据流转和稳定性治理。"
     },
     {
       "company_name": "佛山市互成一家传媒有限公司",
-      "department_name": "小程序前端开发",
+      "department_name": "小程序主线开发",
       "work_time": [
         "2025.05",
         "2026.05"
       ],
-      "work_desc": "负责校园生活小程序前端，搭建业务框架、状态模块和复用组件体系。\n推动社区、打印、跑腿、课表、成绩分析、AI 助手和校园实时人流等场景落地。"
+      "work_desc": "负责校园生活小程序前端主线建设，沉淀页面框架、状态模块和组件复用规范。\n推动社区、交易服务、AI 助手和校园数据服务落地，支撑产品从单点工具向综合平台演进。"
     }
   ],
   "projectList": [
@@ -66,29 +66,29 @@
       "project_name": "Serenique 个人生活管理系统",
       "project_role": "全栈开发",
       "project_time": "2026.06 - 2026.07",
-      "project_desc": "React / Vite / Go / Gin / PostgreSQL 全栈应用，覆盖记录、任务、事件、日记、笔记和 Passkey 登录。",
-      "project_content": "独立实现前后端模块、数据库迁移、REST API、React Query 状态管理、紧凑型响应式界面和 WebAuthn 会话认证；完成 Cloudflare Pages / Functions、Caddy、frp、systemd、PostgreSQL 的生产式部署。"
+      "project_desc": "自研生产级全栈产品，覆盖个人记录、任务、事件、日记、笔记、Passkey 登录和云端部署。",
+      "project_content": "独立完成产品设计、React 前端、Go API、PostgreSQL 建模、WebAuthn 认证和生产部署；重点解决多模块数据建模、会话 Cookie、同源代理、Cloudflare Functions、Caddy、frp 与 systemd 部署闭环。"
     },
     {
       "project_name": "MetaCraft AI 应用生成平台",
       "project_role": "全栈开发",
       "project_time": "2026.04",
-      "project_desc": "AI 驱动的应用生成平台，支持自然语言对话、方案生成、代码生成、版本保存和实时进度回传。",
-      "project_content": "后端基于 Java 21 / Spring Boot / PostgreSQL / Flyway / LangChain4j，设计统一 AI 入口与 chat、gen、edit 流程编排；通过 SSE 输出 intent、message、plan、app_generated 等事件，持久化会话、消息、应用和版本。"
+      "project_desc": "AI 应用生成平台，面向“自然语言到可运行应用”的生成、预览、版本管理和实时进度回传。",
+      "project_content": "设计统一 Agent 入口与 SSE 事件协议，串联意图识别、方案生成、代码生成、预览发布和版本管理链路；落地会话、消息、应用、版本数据模型，形成可追踪的 AI 生成闭环。"
     },
     {
       "project_name": "AI 找搭子 HarmonyOS 客户端",
       "project_role": "核心开发",
       "project_time": "2026.04 - 至今",
-      "project_desc": "面向 HarmonyOS 6 的 AI 社交匹配客户端，包含 AI 对话、匹配推荐、社区动态、IM 私聊、用户资料和认证流程。",
-      "project_content": "负责 5 Tab 主业务壳层、REST 接口封装、腾讯云 TIM 即时通信、离线推送、在线状态、本地登录恢复和消息未读同步，处理复杂移动端状态流转。"
+      "project_desc": "商业 HarmonyOS 6 客户端，承载 AI 对话、匹配推荐、社区动态、IM 私聊、用户资料和认证流程。",
+      "project_content": "负责主业务壳层、服务层封装、TIM 实时通信、推送跳转、登录恢复和未读同步；在多状态来源下统一页面行为，降低页面耦合和联调成本。"
     }
   ],
   "skillList": [],
   "workList": [],
   "awardList": [],
   "aboutme": {
-    "aboutme_desc": "全栈工程师方向，具备 Web 前端、小程序、HarmonyOS 客户端、后端接口、数据库、Linux 部署和 AI 应用编排经验，能从需求拆解、方案设计、页面与接口实现、联调排障推进到上线交付，关注工程质量、产品可用性、异常兜底、权限边界和长期维护成本。"
+    "aboutme_desc": "全栈工程师方向，具备从业务需求到生产上线的端到端交付能力，主线覆盖 Web 前端、小程序、HarmonyOS 客户端、Go/Java 后端、数据库建模、Linux 部署和 AI 应用编排。擅长把复杂业务拆成可维护模块，重视接口契约、状态治理、异常兜底和部署可复用，能在小团队中承担核心开发与技术推进角色。"
   },
   "theme": {
     "color": "#2563eb",
