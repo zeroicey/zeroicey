@@ -63,11 +63,11 @@
   ],
   "projectList": [
     {
-      "project_name": "Serenique 个人生活管理系统",
-      "project_role": "全栈开发",
-      "project_time": "2026.06 - 2026.07",
-      "project_desc": "自研生产级全栈产品，覆盖个人记录、任务、事件、日记、笔记、Passkey 登录和云端部署。",
-      "project_content": "独立完成产品设计、React 前端、Go API、PostgreSQL 建模、WebAuthn 认证和生产部署；重点解决多模块数据建模、会话 Cookie、同源代理、Cloudflare Functions、Caddy、frp 与 systemd 部署闭环。"
+      "project_name": "SkyBrain 基于 AI 的多模态无人机系统",
+      "project_role": "系统设计 / 前端开发",
+      "project_time": "2026.03 - 2026.05",
+      "project_desc": "面向校园安保、设施巡检和活动保障的智能无人机平台，融合视觉识别、语音指令、自然语言任务创建、实时监控和多机调度。",
+      "project_content": "设计 Web 控制台与 AI 交互链路，覆盖驾驶舱、设备管理、航线规划、任务调度、实时视频、告警记录和权限配置；基于 React / TypeScript / Three.js 构建 3D 展示与多模块业务界面，沉淀多模态无人机系统的产品原型和架构方案。"
     },
     {
       "project_name": "MetaCraft AI 应用生成平台",
