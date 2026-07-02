@@ -10,7 +10,8 @@
     "aboutme": "个人评价"
   },
   "avatar": {
-    "hidden": true
+    "src": "https://raw.githubusercontent.com/zeroicey/zeroicey/main/assets/avatar.jpeg",
+    "hidden": false
   },
   "profile": {
     "name": "张开鑫",
