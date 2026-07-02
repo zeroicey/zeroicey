@@ -1,0 +1,178 @@
+{
+  "template": "template2",
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "专业技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "个人评价"
+  },
+  "avatar": {
+    "hidden": true
+  },
+  "profile": {
+    "name": "张开鑫",
+    "email": "zeroicey.hp@outlook.com",
+    "mobile": "19138367249",
+    "github": "https://github.com/zeroicey",
+    "zhihu": "https://zeroicey.me",
+    "workExpYear": "1 年+ 项目实战经验",
+    "workPlace": "广州 / 深圳 / 北京 / 远程",
+    "positionTitle": "全栈工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": [
+        "2024.09",
+        "2027.06"
+      ],
+      "school": "广东东软学院",
+      "major": "软件技术",
+      "academic_degree": "在读"
+    }
+  ],
+  "workExpList": [
+    {
+      "company_name": "北京找搭子科技有限公司",
+      "department_name": "HarmonyOS 客户端开发",
+      "work_time": [
+        "2026.04",
+        "至今"
+      ],
+      "work_desc": "负责 AI 找搭子 HarmonyOS 客户端核心业务开发，基于 ArkTS / ArkUI / HMRouter 建设首页、AI 对话、IM 私聊、社区动态、个人资料与认证等功能。\n封装业务 REST API、TIM 即时通信、离线推送、在线状态、本地持久化与 AppStorage 全局状态，打通登录恢复、消息未读、推送跳转和资料刷新等移动端关键链路。\n持续优化页面空状态、异常兜底、交互文案和信息层级，提升复杂社交匹配 App 的稳定性与可用性。"
+    },
+    {
+      "company_name": "广州市顺元医疗器械有限公司",
+      "department_name": "前端开发",
+      "work_time": [
+        "2025.08",
+        "2026.05"
+      ],
+      "work_desc": "参与洗消机管理系统前端开发，基于 Vue 3 / Vite 构建医疗设备管理后台，覆盖登录注册、医院科室、用户权限、设备维护、故障记录、洗消记录、统计信息和产品演示等模块。\n封装 API 服务、表格检索、表单校验、权限控制、Excel 导入导出和响应式布局，处理空值、筛选条件、图片缓存和权限默认值等线上易错点。\n按业务域拆分页面、组件、service、mock 和工具模块，提高后台系统的维护效率与交付稳定性。"
+    },
+    {
+      "company_name": "佛山市互成一家传媒有限公司",
+      "department_name": "小程序前端开发",
+      "work_time": [
+        "2025.05",
+        "2026.05"
+      ],
+      "work_desc": "负责校园生活服务微信小程序前端开发，基于 uni-app / Vuex 建设社区、快递代拿、文件打印、失物招领、二手交易、个人中心、订单地址和校园服务等页面。\n搭建 API 请求层、Vuex 状态模块和页面组件体系，支持用户登录、资料管理、帖子发布、评论互动、打印下单、课表与校园服务信息展示。\n扩展 AI 助手、知识卡片、成绩/课表分析、校园实时人流与天气服务等功能，提升小程序的信息密度和校园场景覆盖。"
+    },
+    {
+      "company_name": "深圳市慈力科技有限公司",
+      "department_name": "游戏前端开发",
+      "work_time": [
+        "2025.12",
+        "2026.03"
+      ],
+      "work_desc": "参与和平精英绿洲起源相关游戏前端开发，围绕玩法页面、交互反馈和活动体验进行实现与调试。\n配合业务需求完成前端逻辑、界面状态和资源接入，关注移动端性能、操作反馈和多人场景下的用户体验一致性。"
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "Serenique 个人生活管理系统",
+      "project_role": "全栈开发",
+      "project_time": "2026.06 - 2026.07",
+      "project_desc": "面向个人生活记录、任务、事件、日记和笔记管理的全栈系统，采用 React / Vite / Tailwind CSS 前端与 Go / Gin / Fx / PostgreSQL 后端，支持 Passkey 登录和生产环境部署。",
+      "project_content": "1. 设计并实现 monorepo 工程结构，前端使用 React Router、TanStack Query、Zustand、Radix UI 与 Tailwind CSS，后端使用 Gin、Fx、pgx、Viper 和 zap。\n2. 完成 moment、task、event、diary、note、auth 等业务模块，配套 PostgreSQL migration、REST API、路由加载、状态管理和紧凑型响应式 UI。\n3. 接入 WebAuthn / Passkey 认证，处理会话 Cookie、跨域、同源代理和登录状态边界。\n4. 通过 Cloudflare Pages / Functions、Caddy、frp、systemd 和 PostgreSQL 完成生产式部署，并沉淀部署文档与模块开发记录。"
+    },
+    {
+      "project_name": "AI 找搭子 HarmonyOS 客户端",
+      "project_role": "核心开发",
+      "project_time": "2026.04 - 至今",
+      "project_desc": "面向 HarmonyOS 5 的 AI 社交匹配客户端，以 AI 对话、用户画像、匹配推荐、社区动态和即时通信为核心业务。",
+      "project_content": "1. 基于 ArkTS / ArkUI / HMRouter 建设 5 Tab 应用壳层，覆盖首页看板、AI 小搭、社区、消息、我的和认证业务。\n2. 封装 ApiService、TIMService、PushService、PresenceService，形成 REST 后端、腾讯云 TIM、离线推送和在线状态的混合通信架构。\n3. 使用 Preferences 与 AppStorage 管理 token、用户资料、TIM 登录态、未读数、推送跳转和刷新事件，支持冷启动/热启动后的状态恢复。\n4. 完成 AI 会话、私聊、动态发布、图片上传、资料编辑、认证进度和匹配详情等关键页面，并补齐异常兜底与用户提示。"
+    },
+    {
+      "project_name": "MetaCraft AI 应用生成平台",
+      "project_role": "全栈开发",
+      "project_time": "2026.04",
+      "project_desc": "AI 驱动的应用生成平台，用户通过自然语言描述需求，系统完成对话、方案生成、网页代码生成、版本保存和实时进度回传。",
+      "project_content": "1. 后端基于 Java 21 / Spring Boot 3.5 / Spring Security / JWT / PostgreSQL / Flyway / LangChain4j 构建 AI 编排、用户认证、应用版本管理和预览服务。\n2. 设计统一入口 POST /api/ai/agent/unified，通过意图识别路由 chat、gen、edit 流程，并用 SSE 输出 intent、message、plan、app_generated、error 等事件。\n3. 建立 chat_sessions、chat_messages、apps、app_versions 等数据模型，生成产物按应用与版本落盘，支持版本回放和预览。\n4. HarmonyOS 客户端封装 HttpManager、AuthInterceptor、ResponseInterceptor 和自定义 SSEClient，实现鉴权请求、401/403 处理和流式生成展示。"
+    },
+    {
+      "project_name": "校园生活服务小程序",
+      "project_role": "前端开发",
+      "project_time": "2025.05 - 2026.05",
+      "project_desc": "面向在校大学生的校园生活服务小程序，提供校园社区、快递代拿、文件打印、失物招领、二手交易、个人中心和智能助手等能力。",
+      "project_content": "1. 基于 uni-app / Vuex / uni-ui 组织多端小程序页面、组件、API 和 store 模块，主要面向微信小程序发布。\n2. 实现社区动态、帖子详情、评论、跑腿卡片、打印服务、招聘信息、地址管理、订单管理、个人资料和设置等业务页面。\n3. 建设 AI 助手消息组件、预设问题、Markdown 渲染和知识卡片，增强校园服务的问答与信息聚合能力。\n4. 增加课表、成绩、校园实时人流、天气和服务推荐等模块，提升产品的校园场景覆盖与使用频次。"
+    },
+    {
+      "project_name": "洗消机管理系统前端",
+      "project_role": "前端开发",
+      "project_time": "2025.08 - 2026.05",
+      "project_desc": "医疗器械洗消设备管理后台，覆盖医院科室、用户权限、设备参数、维护记录、故障记录、洗消记录、统计信息和产品展示。",
+      "project_content": "1. 基于 Vue 3 / Vite / Vue Router / Axios / vxe-table 搭建管理后台页面和通用组件，完成认证布局、应用布局、侧边栏和导航结构。\n2. 实现医院科室、用户、设备维护、故障、洗消记录和统计模块的表格、搜索、详情、创建和编辑流程。\n3. 封装 Excel 导入导出、权限判断、Toast、Modal、表单校验、日期处理和 API service，提升业务开发复用度。\n4. 处理真实业务中的筛选空值、防御性校验、图片缓存、设备类型拉取和负责人权限默认值等稳定性问题。"
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "前端工程",
+      "skill_desc": "熟悉 TypeScript / JavaScript、React、Vue、Vite、uni-app、Tailwind CSS、Radix UI、shadcn 风格组件、React Query 和 Zustand，能够独立完成中后台、小程序和复杂交互界面的工程化开发。",
+      "skill_level": 90
+    },
+    {
+      "skill_name": "后端开发",
+      "skill_desc": "具备 Go / Gin / Fx / pgx / PostgreSQL 与 Java / Spring Boot / Spring Security / JPA / Flyway 开发经验，能够设计 REST API、数据库迁移、鉴权会话、业务模块分层和服务端部署。",
+      "skill_level": 82
+    },
+    {
+      "skill_name": "移动端与 HarmonyOS",
+      "skill_desc": "熟悉 ArkTS / ArkUI / HMRouter、AppStorage、Preferences、HarmonyOS 页面结构和真机调试，具备腾讯云 TIM、离线推送、图片上传、移动端登录恢复和状态同步经验。",
+      "skill_level": 85
+    },
+    {
+      "skill_name": "AI 应用开发",
+      "skill_desc": "具备 AI 应用编排、Prompt 迭代、LangChain4j、SSE 流式响应、会话消息持久化、代码生成预览和 AI 助手交互开发经验，能把模型能力落到可运行产品流程中。",
+      "skill_level": 84
+    },
+    {
+      "skill_name": "部署与工程效率",
+      "skill_desc": "熟悉 Git、Bun、pnpm/npm、Maven、Cloudflare Pages / Functions、Vercel、Caddy、frp、systemd、Linux 服务管理和部署文档沉淀，能够完成从开发到上线的闭环交付。",
+      "skill_level": 86
+    },
+    {
+      "skill_name": "开发工具与开源",
+      "skill_desc": "长期使用 Neovim / Lua / CLI 工具链，能编写轻量开发工具和插件；有 bufswi.nvim、genmit、goroute 等个人开源项目经验，关注开发者体验和可维护性。",
+      "skill_level": 80
+    }
+  ],
+  "workList": [
+    {
+      "work_name": "个人博客",
+      "work_desc": "个人技术博客与作品入口。",
+      "visit_link": "https://zeroicey.me"
+    },
+    {
+      "work_name": "Serenique",
+      "work_desc": "个人生活记录与任务管理全栈系统。",
+      "visit_link": "https://github.com/zeroicey/serenique"
+    },
+    {
+      "work_name": "MetaCraft",
+      "work_desc": "AI 驱动的应用生成平台。",
+      "visit_link": "https://github.com/zeroicey/metacraft"
+    },
+    {
+      "work_name": "bufswi.nvim",
+      "work_desc": "无外部依赖的 Neovim buffer 切换插件。",
+      "visit_link": "https://github.com/zeroicey/bufswi.nvim"
+    },
+    {
+      "work_name": "who_family_wechat",
+      "work_desc": "校园生活服务微信小程序。",
+      "visit_link": "https://github.com/zeroicey/who_family_wechat"
+    }
+  ],
+  "awardList": [],
+  "aboutme": {
+    "aboutme_desc": "全栈工程师方向，具备 Web 前端、后端服务、HarmonyOS 客户端、AI 应用和部署运维的完整项目经验。\n能独立从需求拆解、接口设计、页面实现、状态管理、数据持久化、联调排障推进到上线部署，偏好用真实项目沉淀可复用的工程结构和文档。\n关注产品可用性与工程质量，重视异常兜底、权限边界、交互反馈、部署可重复性和长期维护成本。"
+  },
+  "theme": {
+    "color": "#2563eb",
+    "tagColor": "#16a34a"
+  }
+}
