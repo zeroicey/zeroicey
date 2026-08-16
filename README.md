@@ -14,8 +14,9 @@
 
 > "Go to the dock to order some french fries." 🍟
 
-🔭 **Currently building** 正在做：[MetaCraft](https://github.com/zeroicey/metacraft) — AI-driven application generation platform  
+🔭 **Currently building** 正在做：[Serenique](https://github.com/zeroicey/serenique) — self-hosted, privacy-first journaling & note-taking service  
 🧩 **Neovim plugins** 插件作者：[cybu.nvim](https://github.com/zeroicey/cybu.nvim) · [bufswi.nvim](https://github.com/zeroicey/bufswi.nvim)  
+⚡ **Raycast extension**：[easytier-raycast](https://github.com/zeroicey/easytier-raycast) — control EasyTier networks from Raycast  
 🌱 **Always learning** 保持学习：AI Engineering · Clean Code · Systems
 
 </div>
@@ -65,15 +66,25 @@
 ## 🚀 Featured Projects 精选项目
 
 <p align="center">
+  <a href="https://github.com/zeroicey/serenique"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zeroicey&repo=serenique&theme=radical&hide_border=true" alt="serenique" /></a>
   <a href="https://github.com/zeroicey/metacraft"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zeroicey&repo=metacraft&theme=radical&hide_border=true" alt="metacraft" /></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/zeroicey/cybu.nvim"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zeroicey&repo=cybu.nvim&theme=radical&hide_border=true" alt="cybu.nvim" /></a>
   <a href="https://github.com/zeroicey/bufswi.nvim"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zeroicey&repo=bufswi.nvim&theme=radical&hide_border=true" alt="bufswi.nvim" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/zeroicey/easytier-raycast"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zeroicey&repo=easytier-raycast&theme=radical&hide_border=true" alt="easytier-raycast" /></a>
   <a href="https://github.com/zeroicey/docxAImd"><img src="https://github-readme-stats.vercel.app/api/pin/?username=zeroicey&repo=docxAImd&theme=radical&hide_border=true" alt="docxAImd" /></a>
 </p>
 
+- **[Serenique](https://github.com/zeroicey/serenique)** ⭐ — 自托管、隐私优先的个人日志与笔记服务：闪念笔记 / 任务 / 日历 / 文件存储，WebAuthn 通行密钥登录，内置 AI 助手「宁序」，React Web + Go CLI + Flutter 移动端四端驱动，一键 Docker 部署 *(TypeScript · Go · Dart)*
 - **[MetaCraft](https://github.com/zeroicey/metacraft)** — AI 应用生成平台：用自然语言描述需求，自动生成应用方案与可运行代码 *(TypeScript)*
 - **[cybu.nvim](https://github.com/zeroicey/cybu.nvim)** — 可自定义的 Neovim 缓冲区循环切换插件 *(Lua)*
 - **[bufswi.nvim](https://github.com/zeroicey/bufswi.nvim)** — 轻量缓冲区切换器：居中浮窗列出最近使用的 buffers *(Lua)*
+- **[easytier-raycast](https://github.com/zeroicey/easytier-raycast)** — Raycast 扩展：一键查看 EasyTier 所有网络的在线节点（延迟/丢包/链路类型），免密码重启网络 *(TypeScript)*
 - **[docxAImd](https://github.com/zeroicey/docxAImd)** — 用 AI 把 docx 文档转换为 Markdown
 
 ---
