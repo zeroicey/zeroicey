@@ -1,0 +1,40 @@
+# 生成贡献贪吃蛇动画，推到 output 分支
+# 图片地址（推送到 GitHub 后生效）：
+#   https://raw.githubusercontent.com/zeroicey/zeroicey/output/github-contribution-grid-snake.svg
+#   https://raw.githubusercontent.com/zeroicey/zeroicey/output/github-contribution-grid-snake-dark.svg
+
+name: generate-snake
+
+on:
+  # 每 24 小时自动更新一次
+  schedule:
+    - cron: "0 */24 * * *"
+  # 也可以在 GitHub → Actions → generate-snake → Run workflow 手动触发
+  workflow_dispatch:
+  # 每次推送到 main 时更新
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 生成贡献贪吃蛇 SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#fe428e&color_dots=#141321,#2d1b3f,#5c3a8a,#b455e0,#a9fef7
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: 推送到 output 分支
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
