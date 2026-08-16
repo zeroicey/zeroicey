@@ -44,18 +44,7 @@
 
 ---
 
-## 📊 GitHub Stats 统计
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zeroicey&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="zeroicey's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeroicey&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=zeroicey&theme=radical&hide_border=true" alt="zeroicey's streak" />
-</p>
-
-### 📈 Contribution Graph 贡献活动图
+## 📈 Contribution Graph 贡献活动图
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=zeroicey&theme=radical&hide_border=true&hide_title=true&area=true&height=300" alt="Contribution Graph" />
