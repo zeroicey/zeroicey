@@ -17,6 +17,7 @@
 🔭 **Currently building** 正在做：[Serenique](https://github.com/zeroicey/serenique) — self-hosted, privacy-first journaling & note-taking service  
 🧩 **Neovim plugins** 插件作者：[cybu.nvim](https://github.com/zeroicey/cybu.nvim) · [bufswi.nvim](https://github.com/zeroicey/bufswi.nvim)  
 ⚡ **Raycast extension**：[easytier-raycast](https://github.com/zeroicey/easytier-raycast) — control EasyTier networks from Raycast  
+🌐 **Blog** 博客：[雪宁韵 · zeroicey.me](https://zeroicey.me/) — 记录与分享  
 🌱 **Always learning** 保持学习：AI Engineering · Clean Code · Systems
 
 </div>
@@ -89,6 +90,7 @@
 ---
 
 <p align="center">
+  <a href="https://zeroicey.me/"><img src="https://img.shields.io/badge/Blog-zeroicey.me-FE428E?style=for-the-badge" alt="Blog" /></a>
   <img src="https://komarev.com/ghpvc/?username=zeroicey&style=for-the-badge&color=FE428E&label=Profile+Views" alt="Profile Views" />
 </p>
 
