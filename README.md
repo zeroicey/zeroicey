@@ -47,8 +47,9 @@
 
 ## 📈 Contribution Graph 贡献活动图
 
+<!-- 临时方案：官方 github-readme-activity-graph 公共实例已挂，暂用 ghchart.rshah.org 顶替，Vercel 自建后换回 -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zeroicey&theme=radical&hide_border=true&hide_title=true&area=true&height=300" alt="Contribution Graph" />
+  <img src="https://ghchart.rshah.org/zeroicey" alt="Contribution Graph" />
 </p>
 
 ---
