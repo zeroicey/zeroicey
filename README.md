@@ -1,30 +1,30 @@
 <!--
-  zeroicey 的 GitHub 主页 README
-  中英双语 · radical 主题
+  zeroicey's GitHub profile README
+  English only · radical theme
 -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3800&pause=900&color=FE428E&center=true&vCenter=true&width=640&height=52&lines=Hi+there!+I'm+zeroicey+(happpy)+%F0%9F%91%8B;Full-stack+dev+%C2%B7+AI+builder+%C2%B7+Neovim+plugin+author;%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF+zeroicey+%E2%80%94%E2%80%94+%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91+%2F+%E7%86%AC%E5%A4%9C%E5%86%99%E6%8F%92%E4%BB%B6+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3800&pause=900&color=FE428E&center=true&vCenter=true&width=640&height=52&lines=Hi+there!+I'm+zeroicey+(happpy)+%F0%9F%91%8B;Full-stack+dev+%C2%B7+AI+builder+%C2%B7+Neovim+plugin+author;Self-hosted+tools%2C+built+to+be+owned+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <div align="center">
 
-**Hi, I'm zeroicey (happpy)** — a full-stack developer from China 🇨🇳, currently working from home 🏠.  
-**你好，我是 zeroicey**，一名全栈开发者，远程办公ing 🏠。
+**Hi, I'm zeroicey (happpy)** — a full-stack developer working from home 🏠.  
+I build self-hosted, privacy-first tools, and the developer tooling that grows around them.
 
 > "Go to the dock to order some french fries." 🍟
 
-🔭 **Currently building** 正在做：[Serenique](https://github.com/zeroicey/serenique) — self-hosted, privacy-first journaling & note-taking service  
-🧩 **Neovim plugins** 插件作者：[cybu.nvim](https://github.com/zeroicey/cybu.nvim) · [bufswi.nvim](https://github.com/zeroicey/bufswi.nvim)  
-⚡ **Raycast extension**：[easytier-raycast](https://github.com/zeroicey/easytier-raycast) — control EasyTier networks from Raycast  
-🌐 **Blog** 博客：[雪宁韵 · zeroicey.me](https://zeroicey.me/) — 记录与分享  
-🌱 **Always learning** 保持学习：AI Engineering · Clean Code · Systems
+🔭 **Currently building**: [Serenique](https://github.com/zeroicey/serenique) — self-hosted, privacy-first journaling & note-taking service  
+🧩 **Neovim plugin**: [bufswi.nvim](https://github.com/zeroicey/bufswi.nvim) — lightweight buffer switcher  
+🤝 **Upstream contributions**: [pi-web-access](https://github.com/nicobailon/pi-web-access) · [next-prompt-extension](https://github.com/gamaraan/next-prompt-extension) · [cybu.nvim](https://github.com/ghillb/cybu.nvim)  
+🌐 **Blog**: [zeroicey.me](https://zeroicey.me/) — notes and writing  
+🌱 **Always learning**: AI engineering · clean code · systems
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack 技术栈
+## 🛠️ Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -45,27 +45,37 @@
 
 ---
 
-## 📈 Contribution Graph 贡献活动图
+## 📈 Contribution Graph
 
-<!-- 临时方案：官方 github-readme-activity-graph 公共实例已挂，暂用 ghchart.rshah.org 顶替，Vercel 自建后换回 -->
+<!-- Temporary stand-in: the official github-readme-activity-graph public instance is down, so ghchart.rshah.org fills the slot until a self-hosted instance takes over. -->
 <p align="center">
   <img src="https://ghchart.rshah.org/zeroicey" alt="Contribution Graph" />
 </p>
 
 ---
 
-## 🚀 Featured Projects 精选项目
+## 🚀 Featured Projects
 
-- **[Serenique](https://github.com/zeroicey/serenique)** ⭐ — 自托管、隐私优先的个人日志与笔记服务：闪念笔记 / 任务 / 日历 / 文件存储，WebAuthn 通行密钥登录，内置 AI 助手「宁序」，React Web + Go CLI + Flutter 移动端四端驱动，一键 Docker 部署 *(TypeScript · Go · Dart)*
-- **[MetaCraft](https://github.com/zeroicey/metacraft)** — AI 应用生成平台：用自然语言描述需求，自动生成应用方案与可运行代码 *(TypeScript)*
-- **[cybu.nvim](https://github.com/zeroicey/cybu.nvim)** — 可自定义的 Neovim 缓冲区循环切换插件 *(Lua)*
-- **[bufswi.nvim](https://github.com/zeroicey/bufswi.nvim)** — 轻量缓冲区切换器：居中浮窗列出最近使用的 buffers *(Lua)*
-- **[easytier-raycast](https://github.com/zeroicey/easytier-raycast)** — Raycast 扩展：一键查看 EasyTier 所有网络的在线节点（延迟/丢包/链路类型），免密码重启网络 *(TypeScript)*
-- **[docxAImd](https://github.com/zeroicey/docxAImd)** — 用 AI 把 docx 文档转换为 Markdown
+- **[Serenique](https://github.com/zeroicey/serenique)** ⭐ — Self-hosted, privacy-first journaling and note-taking service. Flash notes, tasks, calendar events and file storage behind passkey (WebAuthn) login, with a built-in AI assistant. Driven from four surfaces at once: React web app, Go CLI (for humans *and* AI agents), Flutter mobile app, and the REST API. One-command Docker deployment *(TypeScript · Go · Dart)*
+- **[MetaCraft](https://github.com/zeroicey/metacraft)** — AI-driven application generation platform: describe what you want in natural language, get an app plan plus runnable code *(TypeScript)*
+- **[bufswi.nvim](https://github.com/zeroicey/bufswi.nvim)** — Lightweight buffer switcher for Neovim: a centered floating window listing your most recent buffers *(Lua)*
+- **[easytier-raycast](https://github.com/zeroicey/easytier-raycast)** — Raycast extension for EasyTier: see every node across your networks (latency, packet loss, link type) and restart a network without typing a password *(TypeScript)*
+- **[speakcast](https://github.com/zeroicey/speakcast)** — Lightweight live-transcription relay: sender A dictates through a speech-to-text input field, viewer B joins with a room code and watches the text stream in character by character — read-only, over the LAN *(JavaScript)*
+- **[dotfiles](https://github.com/zeroicey/dotfiles)** — My dotfiles, managed with chezmoi: Ghostty, Neovim, tmux, yazi, zsh and friends *(Go Template)*
 
 ---
 
-## 🐍 Contribution Snake 贪吃蛇
+## 🤝 Upstream Contributions
+
+Merged pull requests into other people's projects:
+
+- **[pi-web-access](https://github.com/nicobailon/pi-web-access)** — added the XCrawl search provider *(provider plumbing, auth, tests)* · [PR #313](https://github.com/nicobailon/pi-web-access/pull/313)
+- **[next-prompt-extension](https://github.com/gamaraan/next-prompt-extension)** — added an opt-in manual trigger mode via the accept key (`autoTrigger: false`), backward compatible by default · [PR #14](https://github.com/gamaraan/next-prompt-extension/pull/14)
+- **[cybu.nvim](https://github.com/ghillb/cybu.nvim)** — added `lazy.nvim` installation instructions, alongside the existing `packer` setup · [PR #33](https://github.com/ghillb/cybu.nvim/pull/33)
+
+---
+
+## 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zeroicey/zeroicey/output/github-contribution-grid-snake-dark.svg" />
@@ -81,5 +91,5 @@
 </p>
 
 <p align="center">
-  <sub>Made with 💜 by zeroicey · 用 💜 写代码 :)</sub>
+  <sub>Made with 💜 by zeroicey</sub>
 </p>
